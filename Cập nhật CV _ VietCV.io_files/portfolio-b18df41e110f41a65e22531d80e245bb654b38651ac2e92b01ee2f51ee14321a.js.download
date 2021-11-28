@@ -1,0 +1,1 @@
+"use strict";document.addEventListener("turbolinks:load",function(){$(".cvs .cv");Array.from(document.querySelectorAll(".cv-action-panel .portfolio")).forEach(function(t){return t.onclick=function(t){return Turbolinks.visit(t.currentTarget.attributes["data-url"].value)}})});

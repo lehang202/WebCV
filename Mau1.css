@@ -1,0 +1,181 @@
+div{
+    display: block;
+}
+.menu-container{
+    width: 100%;
+    background: #fff;
+    z-index: 1300;
+    margin-bottom: 3px;
+}
+
+.sticky-menu{
+    position: sticky;
+    top: 0;
+}
+
+.menu{
+    margin: auto;
+    box-shadow: 0 3px 6px -3px #838485;
+}
+
+.menu-bar{
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.menu-bar{
+    max-width: 1280px;
+    margin: auto;
+}
+.template-actions{
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+}
+
+.menu-template-button{
+    cursor:pointer;
+    font-size: 12px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    box-sizing: border-box;
+    user-select: none;
+}
+.menu-template-button-child{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-bar-actions{
+    display: flex;
+}
+
+.menu-bar-button{
+    padding: 5px 15px;
+    margin: 4px;
+    border-radius: 15px;
+    border: none;
+    background-color: #95c1ec;
+    color: #2f99b5;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+}
+
+.menu-line-break{
+    border-top: 1px solid #d37000;
+}
+.menu-tool-bar{
+    height: 50px;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    max-width: 1100px;
+    margin: auto;
+}
+.text-decoration{
+    display: flex;
+    text-align: center;
+    border-right: 1px solid #d37000;
+}
+.text-align{
+    display: flex;
+    border-right: 1px solid #838485 ;
+}
+
+.undo-action{
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    justify-content: flex-start;
+}
+@media(min-width:992px){
+    .undo-action{
+        padding: 5px 25px;
+    }
+}
+/* nội dung css của editor CV*/
+.editor-container{
+    position: relative;
+    min-height: 0;
+    flex: 1;
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+/*Thanh kéo*/
+.CompletionBar__completion-bar-abbr___1gdwD{
+    margin: 46px 20px 0 10px;
+}
+.abbr[title]{
+    text-decoration: underline dotted;
+}
+.CompletionBar__completion-bar___1DYN3{
+    position: fixed;
+    background-color: #ccc;
+    border-radius: 5px;
+    width: 10px;
+    height: 240px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+@media(min-width: 210mm){
+    .editor-container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/*Toàn bộ nội dung CV*/
+.editor-container .pages{
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+.avatar-group .pages-container{
+    position: relative;
+}
+.pages.column{
+    flex-direction: column;
+}
+.editor-container .page{
+    background-color: #fff;
+    border: 0;
+    box-shadow: 0 0 0 0.75pt #d1d1d1, 0 0 3pt 0.075pt 17.5pt;
+    margin: 3.75pt 3.75pt 15.5pt;
+}
+.page {
+    background-color: #f6f6f6 !important;
+    cursor: text;
+    display: flex;
+    flex: 1;
+    position: relative;
+    white-space: normal;
+    width: 210mm;
+    height: 297mm;
+    background-color: #fff;
+}
+
+.page>div{
+    height: 100%;
+}
+
+.pages-container .header{
+    background-color: #fff;
+    display: flex;
+}
+.header{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.header, .header .about-me{
+    display: flex;
+    flex-direction: column;
+}
