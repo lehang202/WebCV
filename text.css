@@ -1072,7 +1072,7 @@ img.twemoji{height:1em;width:1em;margin:0 .05em 0 .1em;vertical-align:-0.1em
 }
 .layout-margin-40 .padding-section-content{padding:12.8px 21.2px
 }
-.layout-margin-50 .padding-section-content{padding:14px 23.5px
+.layout-margin-50 .padding-section-content{padding:12px
 }
 .layout-margin-60 .padding-section-content{padding:15.2px 25.8px
 }
@@ -1084,9 +1084,9 @@ img.twemoji{height:1em;width:1em;margin:0 .05em 0 .1em;vertical-align:-0.1em
 }
 .layout-margin-100 .padding-section-content{padding:20px 35px
 }
-.sub-sections{padding:5px
+.sub-sections{padding:12px
 }
-.sub-section{color:#4a4a4a;padding:9px 19px
+.sub-section{color:#4a4a4a;
 }
 .layout-margin-0 .sub-section{padding:3px 8px
 }
@@ -1098,7 +1098,7 @@ img.twemoji{height:1em;width:1em;margin:0 .05em 0 .1em;vertical-align:-0.1em
 }
 .layout-margin-40 .sub-section{padding:7.8px 16.8px
 }
-.layout-margin-50 .sub-section{padding:9px 19px
+.layout-margin-50 .sub-section{
 }
 .layout-margin-60 .sub-section{padding:10.2px 21.2px
 }
@@ -1384,7 +1384,7 @@ img.twemoji{height:1em;width:1em;margin:0 .05em 0 .1em;vertical-align:-0.1em
 }
 .layout-margin-40 .skills-sections{padding:12.8px 21.2px 0
 }
-.layout-margin-50 .skills-sections{padding:14px 23.5px 0
+.layout-margin-50 .skills-sections{padding:12px
 }
 .layout-margin-60 .skills-sections{padding:15.2px 25.8px 0
 }
@@ -1408,7 +1408,7 @@ img.twemoji{height:1em;width:1em;margin:0 .05em 0 .1em;vertical-align:-0.1em
 }
 .content-skill .skill-style-detail .skill-name{font-weight:700
 }
-.content-skill .skill-name{width:130px;align-self:center;margin-right:5px
+.content-skill .skill-name{width:130px;align-self:center;
 }
 .layout-margin-0 .content-skill .skill-name{width:160px
 }
@@ -1602,13 +1602,13 @@ img.twemoji{height:1em;width:1em;margin:0 .05em 0 .1em;vertical-align:-0.1em
 }
 .project-info{margin-top:10px
 }
-.contacts-sections .sub-section{width:100%;padding:5px
+.contacts-sections .sub-section{width:100%;padding:4px
 }
 .contacts-sections .sub-section .header-field-input{margin:0;font-weight:400;word-break:break-word
 }
 .contacts-sections .header-field-group{padding:0
 }
-.content-contacts{padding-top:1rem
+.content-contacts{
 }
 .section.content-socials .section-badge{color:#000
 }
@@ -1688,7 +1688,7 @@ img.twemoji{height:1em;width:1em;margin:0 .05em 0 .1em;vertical-align:-0.1em
 }
 .page .page-column{height:100%;display:flex;flex-direction:column
 }
-.columns{display:flex;flex:1;padding:0 2rem;padding-bottom:38px
+.columns{display:flex;flex:1;padding-bottom:38px
 }
 .column-0-with-contacts .column-0{margin-right:0
 }

@@ -1,6 +1,4 @@
-div{
-    display: block;
-}
+
 .menu-container{
     width: 100%;
     background: #fff;
@@ -128,8 +126,6 @@ div{
 
 @media(min-width: 210mm){
     .editor-container{
-        display: flex;
-        justify-content: space-between;
     }
 }
 
@@ -148,7 +144,6 @@ div{
     background-color: #fff;
     border: 0;
     box-shadow: 0 0 0 0.75pt #d1d1d1, 0 0 3pt 0.075pt 17.5pt;
-    margin: 3.75pt 3.75pt 15.5pt;
 }
 .page {
     background-color: #f6f6f6 !important;
@@ -178,4 +173,8 @@ div{
 .header, .header .about-me{
     display: flex;
     flex-direction: column;
+}
+
+.subsections{
+    padding: 0;
 }

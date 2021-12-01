@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp"rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone"rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="Mau1.css">
     <link rel="stylesheet" href="text.css">
@@ -133,18 +134,18 @@
         <!--là nguyên phần cài đặt, điểu chỉnh sao cho khi kéo CV lên ko bị che mất lớp menu này-->
         <div id="in-editor-modal-container"></div>
         <!--đây là nội dung của CV-->
-        <div class="editor-container">
+        <div class="editor-container w-100">
             <!--noidung phan CV và thanh kéo nọi dung bên phải-->
-            <div class="completion-bar-title-editor">
+            <div class="completion-bar-title-editor mt-0">
                 <!--thanh kéo-->
-                <abbr class="CompletionBar__completion-bar-abbr___1gdwD" title="90% completed. Click to see more suggestion">
+                <!-- <abbr class="CompletionBar__completion-bar-abbr___1gdwD" title="90% completed. Click to see more suggestion">
                     <div class="CompletionBar__completion-bar___1DYN3">
                         <div class="CompletionBar__completed-progress___2M3HP" style="height: 90%; background-color: rgb(84, 189, 76);"></div>
                     </div>
-                </abbr>
+                </abbr> -->
                 <!--bản CV gốc Main-->
                 <div>
-                    <div style=" margin-top: 36px;margin-bottom: 36px;position: relative;width: 741.6px;height: 2052px;">
+                    <div class="m-auto" style="position: relative;width: 741.6px;height: 2100px;">
                         <div style="position: absolute; transform: scale(0.9); transform-origin: 0px;">
                             <div>
                                 <!--content-->
@@ -203,16 +204,16 @@
                                                                                 <h2 tabindex="1" class="section-header font-size-2" contenteditable="true">Liên hệ</h2>
                                                                             </div>
                                                                             <!--nội dung liên hệ-->
-                                                                            <div class="contacts-sections padding-section-content">
+                                                                            <div class="contacts-sections padding-section-content p-1">
                                                                                 <!--ngày sinh-->
                                                                                 <div class="sub-section-dnd  sub-section " tabindex="0">
                                                                                     <div>
                                                                                         <div>
                                                                                             <div class="jsx-parser">
-                                                                                                <div class="header-field-group">
+                                                                                                <div class="d-flex align-items-center">
                                                                                                     <span class="material-icons-outlined">event</span>
                                                                                                     <i class="fa fa-birthday-cake header-field-icon text-primary"></i>
-                                                                                                    <h4 tabindex="1" focus-index="header.0.1" content-placeholder="dd/mm/yyyy" content-required-message="&quot;Ngày sinh&quot; không được để trống" class="input-field focus-able date_of_birth  header-field-input font-size-4  " contenteditable="true">dd/mm/yyy</h4>
+                                                                                                    <h4 tabindex="1" focus-index="header.0.1" content-placeholder="dd/mm/yyyy" content-required-message="&quot;Ngày sinh&quot; không được để trống" class="input-field focus-able date_of_birth font-size-4 m-0 ml-2" contenteditable="true">dd/mm/yyy</h4>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -223,9 +224,9 @@
                                                                                     <div>
                                                                                         <div>
                                                                                             <div class="jsx-parser">
-                                                                                                <div class="header-field-group">
+                                                                                                <div class="d-flex align-items-center">
                                                                                                     <span class="material-icons-outlined"> email </span>
-                                                                                                    <h4 tabindex="1" focus-index="header.0.2" content-placeholder="Email" content-required-message="&quot;Email&quot; không được để trống" class="input-field focus-able email  header-field-input font-size-4  " contenteditable="true">lapnickphu02@gmail.com</h4>
+                                                                                                    <h4 tabindex="1" focus-index="header.0.2" content-placeholder="Email" content-required-message="&quot;Email&quot; không được để trống" class="input-field focus-able email  header-field-input font-size-4 m-0 ml-2" contenteditable="true">lapnickphu02@gmail.com</h4>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -236,9 +237,9 @@
                                                                                     <div>
                                                                                         <div>
                                                                                             <div class="jsx-parser">
-                                                                                                <div class="header-field-group">
+                                                                                                <div class="d-flex align-items-center">
                                                                                                     <span class="material-icons-outlined"> room </span>
-                                                                                                    <h4 tabindex="1" focus-index="header.0.3" content-placeholder="Địa chỉ" content-required-message="&quot;Địa chỉ&quot; không được để trống" class="input-field focus-able address  header-field-input font-size-4  " contenteditable="true">Địa chỉ</h4>
+                                                                                                    <h4 tabindex="1" focus-index="header.0.3" content-placeholder="Địa chỉ" content-required-message="&quot;Địa chỉ&quot; không được để trống" class="input-field focus-able address  header-field-input font-size-4 m-0 ml-2 " contenteditable="true">Địa chỉ</h4>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -290,11 +291,11 @@
                                                 <div class="content-field content-skills index-0 last-index section editable  section-dnd  " tabindex="0">
                                                     <div style="visibility: inherit;">
                                                         <div class="jsx-parser">
-                                                            <div class="section-header-container bg-primary">
+                                                            <div class="section-header-container bg-primary ">
                                                                 <div class="bg-primary rectangle"></div>
                                                                 <h2 tabindex="1" class="section-header text-primary font-size-2" contenteditable="true">Kỹ năng</h2>
                                                             </div> 
-                                                            <div class="sub-sections skills-sections">
+                                                            <div class="p-2 sub-sections skills-sections">
                                                                 <div class="sub-section  sub-section-dnd " tabindex="0">
                                                                     <div style="visibility: inherit;"><div><div class="jsx-parser">
                                                                         <div class="content-skill">
