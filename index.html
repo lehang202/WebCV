@@ -17,6 +17,8 @@
 
     <link rel="stylesheet" href="Mau1.css">
     <link rel="stylesheet" href="text.css">
+    <script src="java.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
 </head>
 <body>
     <div class="cv-editor">
@@ -68,8 +70,9 @@
                             xem trước
                         </button>
                     </div>
+                    <!--Chức năng download-->
                     <div class="menu-bar-actions">
-                        <button id="ButtonImport" class="menu-bar-button button-import hidden-xms">
+                        <button id="download" class="menu-bar-button button-import hidden-xms">
                             <i class="fas fa-download"></i>
                             tải xuống
                         </button>
@@ -150,7 +153,7 @@
                         <div style="position: absolute; transform: scale(0.9); transform-origin: 0px;">
                             <div>
                                 <!--content-->
-                                <div id="">
+                                <div id="invoice">
                                     <div class="editor-text-font-size 
                                                 root-font-size-150
                                                 root-line-height-140
