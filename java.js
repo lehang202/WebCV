@@ -1,3 +1,4 @@
+//chức năng tải file xuống
 window.onload = function () {
     document.getElementById("download")
         .addEventListener("click", () => {
@@ -14,3 +15,15 @@ window.onload = function () {
             html2pdf().from(invoice).set(opt).save();
         })
 }
+
+//chức năng tải avatar
+function chooseFile(fileInput){
+    if (fileInput.files && fileInput.files[0]){
+        var reader = new FileReader();
+
+        reader.onload = function(e){
+            $('#image').attr('src', e.target.result);            
+        }
+        reader.readAsDataURL(fileInput.files[0]);
+    }
+} 
