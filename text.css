@@ -1136,7 +1136,7 @@ img.twemoji{height:1em;width:1em;margin:0 .05em 0 .1em;vertical-align:-0.1em
 }
 .column-0 .section-header-container,.section-contacts .section-header-container{width:fit-content;border-top-right-radius:999rem;border-bottom-right-radius:999rem;position:relative;overflow:hidden
 }
-.column-0 .section-header-container:after,.column-0 .section-header-container:before,.section-contacts .section-header-container:after,.section-contacts .section-header-container:before{background-color:inherit;display:block;content:'';position:absolute;right:-4rem;transform:rotate(-45deg);width:200px;z-index:0
+.column-0 .section-header-container:after,.column-0 .section-header-container:before,.section-contacts .section-header-container:after,.section-contacts .section-header-container:before{display:block;content:'';position:absolute;right:-4rem;transform:rotate(-45deg);width:200px;z-index:0
 }
 .column-0 .section-header-container:before,.section-contacts .section-header-container:before{height:.3rem;filter:brightness(130%);bottom:.6rem
 }
