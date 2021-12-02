@@ -1228,11 +1228,11 @@ img.twemoji{height:1em;width:1em;margin:0 .05em 0 .1em;vertical-align:-0.1em
 }
 .header .social{z-index:999
 }
-.diagonal-line{background-color:inherit;position:absolute;right:-276px;bottom:0;z-index:0;transform:rotate(-45deg)
+.diagonal-line{position:absolute;right:-276px;bottom:0;z-index:0;transform:rotate(-45deg)
 }
-.diagonal-line:after,.diagonal-line:before{background-color:inherit;filter:brightness(110%);display:block;content:'';height:.3rem;width:100%;z-index:0
+.diagonal-line:after,.diagonal-line:before{filter:brightness(110%);display:block;content:'';height:.3rem;width:100%;z-index:0
 }
-.diagonal-line .diagonal-line-main{background-color:inherit;filter:brightness(125%);height:.7rem;width:650px;margin:.75rem 0 .5rem;z-index:0
+.diagonal-line .diagonal-line-main{filter:brightness(125%);height:.7rem;width:650px;margin:.75rem 0 .5rem;z-index:0
 }
 .diagonal-line:after{filter:brightness(126%);height:1rem
 }
