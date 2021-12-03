@@ -124,11 +124,13 @@
     cursor: pointer;
 }
 
-
+/* 
 @media(min-width: 210mm){
     .editor-container{
     }
 }
+*/
+
 
 /*Toàn bộ nội dung CV*/
 .editor-container .pages{

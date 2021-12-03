@@ -442,7 +442,7 @@
 }
 .editor-text-font-family.open-sans{font-family:'Open Sans', sans-serif
 }
-.page{cursor:text;display:flex;flex:1;position:relative; tap-highlight-color:initial;white-space:normal;width:210mm;height:297mm;background-color:#fff
+.page{cursor:text;display:flex;flex:1;position:relative;white-space:normal;width:210mm;height:297mm;background-color:#fff
 }
 .page:hover .watermark.active{background-color:rgba(44,190,96,0.8);border-radius:2px;color:#fff;cursor:pointer
 }
@@ -1098,8 +1098,7 @@ img.twemoji{height:1em;width:1em;margin:0 .05em 0 .1em;vertical-align:-0.1em
 }
 .layout-margin-40 .sub-section{padding:7.8px 16.8px
 }
-.layout-margin-50 .sub-section{
-}
+
 .layout-margin-60 .sub-section{padding:10.2px 21.2px
 }
 .layout-margin-70 .sub-section{padding:11.4px 23.4px
@@ -1608,8 +1607,7 @@ img.twemoji{height:1em;width:1em;margin:0 .05em 0 .1em;vertical-align:-0.1em
 }
 .contacts-sections .header-field-group{padding:0
 }
-.content-contacts{
-}
+
 .section.content-socials .section-badge{color:#000
 }
 .column-0 .section-badge,.column-1 .section-badge{top:1rem;left:unset;right:0;z-index:2
