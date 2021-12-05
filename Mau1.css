@@ -65,9 +65,7 @@
     align-items: center;
 }
 
-.menu-line-break{
-    border-top: 1px solid #d37000;
-}
+
 .menu-tool-bar{
     height: 50px;
     position: relative;
@@ -98,38 +96,11 @@
     }
 }
 /* nội dung css của editor CV*/
-.editor-container{
-    position: relative;
-    min-height: 0;
-    flex: 1;
-    background-color: #f7f7f7;
-    overflow: hidden;
-}
+
 /*Thanh kéo*/
-.CompletionBar__completion-bar-abbr___1gdwD{
-    margin: 46px 20px 0 10px;
-}
 .abbr[title]{
     text-decoration: underline dotted;
 }
-.CompletionBar__completion-bar___1DYN3{
-    position: fixed;
-    background-color: #ccc;
-    border-radius: 5px;
-    width: 10px;
-    height: 240px;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-/* 
-@media(min-width: 210mm){
-    .editor-container{
-    }
-}
-*/
 
 
 /*Toàn bộ nội dung CV*/
